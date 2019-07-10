@@ -6,30 +6,71 @@
         <title>JQUERY</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>        
+    <body>
+
+        <!-- LIST -->
         <div id="container">
             <p>quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
         </div>
-        <ul>
+        <ul id="listing">
             <li class="class1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
             <li class="class1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li class="class1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li class="class1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-            <li>
+            <div>
                 <ul>
                     <li>Nemo enim <a href="">some links</a> ipsam voluptatem quia </li>
                     <li>Nemo enim ipsam voluptatem quia </li>
                     <li>Nemo enim ipsam voluptatem quia </li>
                     <li>Nemo enim ipsam voluptatem quia </li>
                 </ul>
-            <li/>
+            <div/>
             <li class="class2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
             <li class="class2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
         </ul>
 
+        <br/>
+
+        <!-- FORM -->
+        <div>
+            <input type="text" required placeholder="First Name" />
+        </div>
+        <div>
+            <input type="text" required placeholder="Last Name" />
+        </div>
+        <div>
+            <input type="text" placeholder="Phone" />
+        </div>
+        <div>
+            <input type="text" required placeholder="Email" />
+        </div>
+        <div>
+            <input type="text" placeholder="School" />
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+
+        <br/>
+
+        <!-- ANIMALS -->
+        <div id="animals" class="creature category">Animals
+          <div class="creature category">Mammals
+            <div class="creature">Dogs</div>
+            <div class="creature" id="cat">Cats</div>
+            <div class="terrain">Forest</div>
+            <div class="terrain">Prairie</div>
+          </div>
+          <div class="creature">Reptiles
+            <div class="creature">Snake</div>
+            <div class="creature">Lizard</div>
+            <div class="terrain">Jungle</div>
+          </div>
+        </div>
+
 
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="js/script.js"></script>
+
     </body>
 </html>
-        

@@ -14,3 +14,41 @@ li {
 .class2 {
 	background-color: green;
 }
+
+.highlighted {
+	background-color: lightBlue;
+	color: red;
+}
+
+.creature {
+	margin: 20px;
+	background-color: #FFE1FF;
+	border: 1px solid #8B7B8B;
+}
+
+.terrain {
+	margin: 20px;
+	background-color: green;
+	border: 1px solid #8B7B8B;
+}
+
+.highlightedBox {
+	background-color: #E17BBA!important;
+}
+
+#example {
+	width: 100px;
+	height: 100px;
+	margin: 150px auto;
+	background-color: #3BEAB4;
+}
+
+#buttonBox {
+	background-color: #F46D63;
+	color: white;
+	font-weight: bold;
+	border:none;
+	padding: 5px;
+	width: 100px;
+	margin: 35px auto;
+}
